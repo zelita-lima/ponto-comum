@@ -76,23 +76,24 @@
 @import url("./../vendor/uicons-solid-rounded/css/uicons-solid-rounded.css");
 @import url("./../vendor/line-awesome/css/line-awesome.min.css");
 @import url("./../vendor/themify-icons/css/themify-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 :root {
-  --primary: #009688;
-  --primary-light: rgba(255, 251, 246, 0.80);
+  --primary: #FBD247;
+  --primary-light: rgba(36, 36, 35, 0.8);
   --primary-light-2: #FFCD90;
   --bg-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.74%, rgba(255, 255, 255, 0.67) 26.84%, #FFF 62.37%, #FFF 100%);
-  --primary-hover: #00635a;
+  --primary-hover: #FAC71C;
   --primary-dark: black;
   --secondary: #28B0CE;
-  --rgba-primary-1: rgba(0, 150, 136, 0.1);
-  --rgba-primary-2: rgba(0, 150, 136, 0.2);
-  --rgba-primary-3: rgba(0, 150, 136, 0.3);
-  --rgba-primary-4: rgba(0, 150, 136, 0.4);
-  --rgba-primary-5: rgba(0, 150, 136, 0.5);
-  --rgba-primary-6: rgba(0, 150, 136, 0.6);
-  --rgba-primary-7: rgba(0, 150, 136, 0.7);
-  --rgba-primary-8: rgba(0, 150, 136, 0.8);
-  --rgba-primary-9: rgba(0, 150, 136, 0.9);
+  --rgba-primary-1: rgba(251, 210, 71, 0.1);
+  --rgba-primary-2: rgba(251, 210, 71, 0.2);
+  --rgba-primary-3: rgba(251, 210, 71, 0.3);
+  --rgba-primary-4: rgba(251, 210, 71, 0.4);
+  --rgba-primary-5: rgba(251, 210, 71, 0.5);
+  --rgba-primary-6: rgba(251, 210, 71, 0.6);
+  --rgba-primary-7: rgba(251, 210, 71, 0.7);
+  --rgba-primary-8: rgba(251, 210, 71, 0.8);
+  --rgba-primary-9: rgba(251, 210, 71, 0.9);
   --font-family-base: Lato, sans-serif;
   --font-family-title: Poppins, sans-serif;
   --border-radius-base: 12px;
@@ -104,7 +105,7 @@
   --bg-white: #FFF;
   --title: #2F2F2F;
   --card-bg: #fff;
-  --theme-text-color: #fff; }
+  --theme-text-color: #000; }
 
 /*
 	0 - 600: Phone
@@ -142,7 +143,7 @@
   --bs-danger: #AE7156;
   --bs-light: #E6E6E6;
   --bs-dark: #293041;
-  --bs-primary-rgb: 0, 150, 136;
+  --bs-primary-rgb: 251, 210, 71;
   --bs-secondary-rgb: 40, 176, 206;
   --bs-success-rgb: 28, 189, 92;
   --bs-info-rgb: 161, 49, 173;
@@ -199,7 +200,7 @@
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #2F2F2F;
   --bs-link-color: #009688;
-  --bs-link-color-rgb: 0, 150, 136;
+  --bs-link-color-rgb: 251, 210, 71;
   --bs-link-decoration: underline;
   --bs-link-hover-color: #00786d;
   --bs-link-hover-color-rgb: 0, 120, 109;
@@ -222,7 +223,7 @@
   --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
   --bs-focus-ring-width: 0.25rem;
   --bs-focus-ring-opacity: 0.25;
-  --bs-focus-ring-color: rgba(0, 150, 136, 0.25);
+  --bs-focus-ring-color: rgba(251, 210, 71, 0.25);
   --bs-form-valid-color: #1CBD5C;
   --bs-form-valid-border-color: #1CBD5C;
   --bs-form-invalid-color: #AE7156;
@@ -1801,7 +1802,7 @@ progress {
     background-color: var(--bs-body-bg);
     border-color: #80cbc4;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25); }
+    box-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25); }
   .form-control::-webkit-date-and-time-value {
     min-width: 85px;
     height: 1.6em;
@@ -1923,7 +1924,7 @@ textarea.form-control-lg {
   .form-select:focus {
     border-color: #80cbc4;
     outline: 0;
-    box-shadow: 0 0 0 0rem rgba(0, 150, 136, 0.25); }
+    box-shadow: 0 0 0 0rem rgba(251, 210, 71, 0.25); }
   .form-select[multiple], .form-select[size]:not([size="1"]) {
     padding-right: 0.75rem;
     background-image: none; }
@@ -1994,7 +1995,7 @@ textarea.form-control-lg {
   .form-check-input:focus {
     border-color: #80cbc4;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25); }
+    box-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25); }
   .form-check-input:checked {
     background-color: #009688;
     border-color: #009688; }
@@ -2064,9 +2065,9 @@ textarea.form-control-lg {
   .form-range:focus {
     outline: 0; }
     .form-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(0, 150, 136, 0.25); }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(251, 210, 71, 0.25); }
     .form-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(0, 150, 136, 0.25); }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(251, 210, 71, 0.25); }
   .form-range::-moz-focus-outer {
     border: 0; }
   .form-range::-webkit-slider-thumb {
@@ -2634,7 +2635,7 @@ textarea.form-control-lg {
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #009688;
   --bs-btn-hover-border-color: #009688;
-  --bs-btn-focus-shadow-rgb: 0, 150, 136;
+  --bs-btn-focus-shadow-rgb: 251, 210, 71;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #009688;
   --bs-btn-active-border-color: #009688;
@@ -3207,7 +3208,7 @@ textarea.form-control-lg {
     color: var(--bs-nav-link-hover-color); }
   .nav-link:focus-visible {
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25); }
+    box-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25); }
   .nav-link.disabled {
     color: var(--bs-nav-link-disabled-color);
     pointer-events: none;
@@ -3814,7 +3815,7 @@ textarea.form-control-lg {
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23003c36'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-focus-border-color: #80cbc4;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
@@ -3954,7 +3955,7 @@ textarea.form-control-lg {
   --bs-pagination-hover-border-color: var(--bs-border-color);
   --bs-pagination-focus-color: var(--bs-link-hover-color);
   --bs-pagination-focus-bg: var(--bs-secondary-bg);
-  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25);
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: #009688;
   --bs-pagination-active-border-color: #009688;
@@ -4473,7 +4474,7 @@ textarea.form-control-lg {
   --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
   --bs-btn-close-opacity: 0.5;
   --bs-btn-close-hover-opacity: 0.75;
-  --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(0, 150, 136, 0.25);
+  --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(251, 210, 71, 0.25);
   --bs-btn-close-focus-opacity: 1;
   --bs-btn-close-disabled-opacity: 0.25;
   --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
@@ -5736,7 +5737,7 @@ textarea.form-control-lg {
 
 .text-bg-primary {
   color: #000 !important;
-  background-color: RGBA(0, 150, 136, var(--bs-bg-opacity, 1)) !important; }
+  background-color: RGBA(251, 210, 71, var(--bs-bg-opacity, 1)) !important; }
 
 .text-bg-secondary {
   color: #000 !important;
@@ -11345,7 +11346,6 @@ section {
     position: fixed;
     width: 100%; }
   .header.bg-img {
-    background-image: url(../images/pattern1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--primary); }
@@ -17913,11 +17913,17 @@ button {
   .location .location-content {
     flex: 1; }
     .location .location-content .title {
-      color: #fff;
-      font-weight: 600;
-      margin-bottom: 0px; }
+      font-family: "Tilt Neon", sans-serif;
+      font-optical-sizing: auto;
+      color: #000;
+      font-weight: 400;
+      margin-bottom: 0px;
+      font-size: 2rem;
+      font-variation-settings:
+        "XROT" 0,
+        "YROT" 0; }
     .location .location-content p {
-      color: #e1e1e1;
+      color: #202020;
       margin-bottom: 0; }
   .location.style-2 {
     background-color: var(--bg-white); }
